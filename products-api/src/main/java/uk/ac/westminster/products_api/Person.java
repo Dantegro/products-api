@@ -42,7 +42,7 @@ public class Person {
         return email;
     }
 
-    public String setEmail() {
+    public void setEmail() {
         this.email = email;
     }
 
