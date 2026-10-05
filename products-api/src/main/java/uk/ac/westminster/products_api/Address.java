@@ -1,0 +1,27 @@
+package uk.ac.westminster.products_api;
+
+public class Address {
+
+    private String street;
+    private String city;
+    private String postcode;
+
+    public Address() {}
+
+    public Address(String street, String city, String postcode) {
+        this.street = street;
+        this.city = city;
+        this.postcode = postcode;
+    }
+
+    public String getStreet() { return this.street; }
+
+    public String getCity() { return this.city; }
+
+    public String postcode() { return this.postcode; }
+
+
+}
+
+
+
