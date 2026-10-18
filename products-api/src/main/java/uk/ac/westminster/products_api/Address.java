@@ -6,7 +6,7 @@ public class Address {
     private String city;
     private String postcode;
 
-    public Address() {}
+    public Address() { }
 
     public Address(String street, String city, String postcode) {
         this.street = street;
@@ -18,7 +18,7 @@ public class Address {
 
     public String getCity() { return this.city; }
 
-    public String postcode() { return this.postcode; }
+    public String getPostcode() { return this.postcode; }
 
 
 }
