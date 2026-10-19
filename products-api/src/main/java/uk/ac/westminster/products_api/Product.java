@@ -27,6 +27,7 @@ public class Product {
         return price;
     }
 
+
     public void setId(Long id) {
         this.id = id;
     }
